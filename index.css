@@ -299,7 +299,12 @@
   width: 100%;
   height: 44px;
   background-color: rgba(0, 0, 0, 0.8);
-  overflow: hidden;
+}
+
+@media screen and (max-width: 880px) {
+  .ding_hezi {
+    overflow: hidden;
+  }
 }
 
 .ding_hezi::after {
